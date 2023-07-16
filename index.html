@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<title> Upcoming Front-end </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=chrome1.0">
+		<meta name="portfolio" content="This is a front-end which i created to test my web dev skills which was developed and is still maintained by me.">
+		<meta name="keywords" content="Github, Portfolio, Front end, HTML, CSS, JavaScript">
+		<meta name="author" content="Parimarjan Mishra">
+		<meta name="copyright" content="Copyright 2023 Parimarjan Mishra">
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="C:\Users\noice\OneDrive\Desktop\Projects-Work\Password_Web\Ballista Sphere\logo3.png" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+		<style>
+			body {
+				font-family: "Comfortaa", sans-serif;
+				position: relative;
+			}
+	
+			#header {
+				text-align: left;
+			}
+	
+			#header h1 {
+				font: 900 60px Perpetua;
+				color: #888;
+				transition: all 0.3s ease;
+			}
+	
+			#header h1:hover {
+				color: black;
+			}
+		</style>
+
+	</head>
+	<body class="is-preload">
+
+		<header id="header">
+			<h1><strong><bold> Parimarjan Mishra</bold></strong></h1>
+		</header>
+
+		
+			<footer id="footer">
+				<ul class="icons">
+					<li>
+						<a href="https://www.linkedin.com/in/parimarjan-m-245b2b227/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/_parimarjanmishra/" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram">
+							<span class="label">Instagram</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/dustyxoder" target="_blank" rel="noopener noreferrer" class="icon brands fa-github">
+							<span class="label">GitHub</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.reddit.com/user/Partake7672" target="_blank" rel="noopener noreferrer" class="icon brands fa-reddit">
+							<span class="label">Reddit</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://open.spotify.com/user/51n5lg28l08l4sx5w5347d1f8" target="_blank" rel="noopener noreferrer" class="icon brands fa-spotify">
+							<span class="label">Spotify</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="Copyright">
+					<li>&copy; Ballista Sphere</li>
+					<li>Credits: <a href="https://github.com/dustyxoder" target="_blank" rel="noopener noreferrer">dustyxoder.</a></li>
+				</ul>
+
+				<p class="beta-label">
+					<span class="beta-icon">
+					  <i class="fas fa-beta"></i>
+					</span>
+					<span class="beta-text">
+					  <strong>Under Pre-Alpha Development: </strong>
+					  This site is still under active development, be patient as we work out the kinks.
+					  <a href="mailto:lilwrld2000@duck.com">Click here for bugs and feedback</a>
+					</span>
+				</p>
+			</footer>
+			
+			<script src="assets/js/main.js"></script>
+			<script>
+				const socialLinks = document.querySelectorAll('.icons a');
+			  
+				for (const socialLink of socialLinks) {
+				  socialLink.addEventListener('click', function(event) {
+					event.preventDefault();
+			  
+					const url = this.href;
+					const app = window.open(url, '_blank');
+			  
+					if (!app) {
+					  window.location.href = url;
+					}
+				  });
+				}
+			  </script>
+
+	</body>
+</html>
